@@ -40,7 +40,7 @@ AC5 - I couldn't figure out how to assert the colour has changed. Would have tal
 
 AC6 - Should have used scenario outline but not sure how to do in test cafe. Didn't have time to investigate having a release this weekend.
 
-AC7 - Have wy through after clicking the 2018 traffic section, get this error.
+AC7 - Have an issue through after clicking the 2018 traffic section, get this error.
 
 :**A JavaScript error occurred on "https://start.duckduckgo.com/traffic".
       Repeat test actions in the browser and check the console for errors.
