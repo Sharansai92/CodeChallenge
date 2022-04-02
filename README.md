@@ -25,3 +25,30 @@ This test contains 7 acceptance criterias
 **eg**:testcafe chrome CodeChallenge/AC4.js
 
 **Installation guide** : https://testcafe.io/documentation/402635/getting-started
+
+**Test Results** :
+
+AC1 - PASS
+
+AC2 - FAIL (Only 8 results show up, acceptance criteria is wrong)
+
+AC3 - FAIL ( First result is differenet to acceptance criteria)
+
+AC4 - PASS
+
+AC5 - I couldn't figure out how to assert the colour has changed. Would have talked to developer in real world.
+
+AC6 - Should have used scenario outline but not sure how to do in test cafe. Didn't have time to investigate having a release this weekend.
+
+AC7 - Have wy through after clicking the 2018 traffic section, get this error.
+
+:**A JavaScript error occurred on "https://start.duckduckgo.com/traffic".
+      Repeat test actions in the browser and check the console for errors.
+      To ignore client-side JavaScript errors, enable the "--skip-js-errors" CLI option, or set the "skipJsErrors"
+      configuration file property to "true".
+      If the website only throws this error when you test it with TestCafe, please create a new issue at:
+      "https://github.com/DevExpress/testcafe/issues/new?template=bug-report.md".
+
+      JavaScript error details:
+      TypeError: Cannot read properties of undefined (reading 'SearchExperimentsData')
+          at https://start.duckduckgo.com/util/u623.js:2:63**
