@@ -23,3 +23,5 @@ This test contains 7 acceptance criterias
 **Command to run test from terminal** : testcafe browsername projectname/filename.js
 
 **eg**:testcafe chrome CodeChallenge/AC4.js
+
+**Installation guide** : https://testcafe.io/documentation/402635/getting-started
